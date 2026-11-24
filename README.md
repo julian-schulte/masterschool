@@ -1,4 +1,4 @@
-# Masterschool – GenAI Engineer Bootcamp (Term 1)
+# Masterschool – GenAI Engineer Bootcamp
 
 Sammlung meiner Übungen, Live-Sessions, Mini-Projekte und Codio-Challenges aus dem ersten Term der Weiterbildung zum **GenAI Engineer** am **Master School Institute of Technology (MSIT)**.
 
