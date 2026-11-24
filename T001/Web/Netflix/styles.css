@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/435e8bb8-7f1b-49cb-8da8-bff997124294/web/ES-en-20260511-TRIFECTA-perspective_a9ef9d5a-40c1-46d6-bc55-d71511d02a41_large.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+header img {
+    height: 50px;
+}
+
+header button {
+    border-radius: 3px;
+    background-color: #e50914;
+    color: white;
+    border: 1px solid #e50914;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+header #language-select {
+    background-color: #141414;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: #fff;
+    text-align: center;
+}
+main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+main h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+main p {
+    font-size: 1em;
+    margin: 20px;
+}
+main button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+main button:hover {
+    background-color: #f40612;
+}
+main input {
+    padding: 15px;
+    font-size: 1em;
+    margin-right: 10px;
+    background-color: #333;
+    placeholder-color: #fff;
+    border: 1px solid #fff;
+}
+
+main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

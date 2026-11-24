@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Times New Roman", serif;
+}
+
+main {
+    background-color: #1F3226;
+    color: #E0FDD4;
+    padding: 60px 40px;
+    max-width: 820px;
+    width: 90%;
+}
+
+header {
+    background-image: url(https://spooncharm-novagondola.codio.io/qr_joinmsit.png);
+    background-repeat: no-repeat;
+    background-size: 190px 190px;
+    background-position: right top;
+    min-height: 200px;
+    margin-bottom: 40px;
+
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.45;
+    margin-bottom: 24px;
+}
+
+footer{
+    display: flex;
+    gap: 8px;
+}
+
+footer a {
+    display: inline-block;
+    padding: 14px 20px;
+    background-color: #E0FDD4;
+    color: #000;
+    font-size: 21px;
+    text-decoration: none;
+    cursor: pointer;
+}

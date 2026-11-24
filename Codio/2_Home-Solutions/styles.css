@@ -1,0 +1,135 @@
+/* GENERAL STYLING */
+
+:root{
+    --primary-blue: #004C6D;
+    --light-blue: #65b6d1;
+    --accent-light-blue: #0081b9;
+    --light-grey: #B3B9BC;
+    --very-light-blue: #d8e7ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--light-blue);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 25px #00000033;
+    min-height: 400px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+    section#branding, section#login {
+        flex: 1;
+        padding: 120px 30px;
+    }
+}
+
+/* BRANDING SECTION */
+
+section#branding {
+    padding:30px;
+    background-color: var(--primary-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section#branding img{
+    max-width: 180px;
+    height:auto;
+}
+
+h1 {
+    color: var(--very-light-blue);
+    font-size: 1.4rem;
+    margin: 10px 0 0;
+}
+
+/* LOGIN SECTION */
+
+section#login {
+    padding: 0 30px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-blue);
+    margin: 15px 0 30px;
+}
+
+section#login form input {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+section#login form input:focus {
+    outline: 1px solid var(--accent-light-blue);
+}
+
+section#login form button {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: var(--primary-blue);
+    color: #FFF;
+    height: 40px;
+    border: 0 solid;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1rem;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+section#login form button:hover {
+    background-color: var(--accent-light-blue);
+}
+
+section#login p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+section#login a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+section#login a:hover {
+    color: var(--accent-light-blue);
+}

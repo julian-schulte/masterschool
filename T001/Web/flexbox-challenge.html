@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox Challenge</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                color: #60535F;
+            }
+            main {
+                background-color: #722F7A;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                
+            }
+            section {
+                width: 100%;
+                min-height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 10px;
+                padding: 10px;
+            }
+            .left {
+                background-color: #F07401;
+            }
+            .left, .container, button {
+                border-radius: 5px;
+            }
+            .container {
+                background-color: #F6AD2D ;
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+                padding: 15px;
+            }
+            button {
+                border: none;
+                background-color: #FF848E;
+                align-self: flex-end;
+                width: 100%;
+                padding:15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <section class="left">
+                 <!-- LEFT CONTAINER -->
+            </section>
+            <section class="right">
+                <div class="info wrapper">
+                    <div class="container">
+                        <p>Hello everybody!</p>
+                    </div>
+                    <div class="container">
+                        <p>Today we are practicing flexbox!</p>
+                    </div>
+                    <div class="container">
+                        <p>Good Luck!</p>
+                    </div>
+                </div>
+                <button>
+                    <p>Sign Up</p>
+                </button>
+            </section>
+        </main>
+    </body>
+</html> 
