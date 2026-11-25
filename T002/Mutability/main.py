@@ -22,7 +22,7 @@ original_list.append("Baddie <3")
 print(original_list)
 
 #4
-
 original_list[2:4] = ["six", "seven"]
+print(original_list)
 
 
