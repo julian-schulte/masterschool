@@ -9,5 +9,20 @@ Erstelle eine Liste mit dem Namen original_list, die mindestens 5 Elemente enthÃ
 4. Verwende Slicing, um einen Teil der Liste zu ersetzen (z.â€¯B. Elemente von Index 2 bis 4), und gib die Liste danach aus.
 '''
 
-
+#1
 original_list = [1,2,3,4,5]
+print(original_list)
+
+#2
+original_list[0] = 67
+print(original_list)
+
+#3
+original_list.append("Baddie <3")
+print(original_list)
+
+#4
+
+original_list[2:4] = ["six", "seven"]
+
+
