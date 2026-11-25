@@ -46,5 +46,13 @@ original_string = "Hello World"
 print(original_string)
 
 #2
+new_string = original_string.replace("el", "en")
+print(new_string)
 
-print(original_string)
+#3
+concat_string = original_string + " !!!!"
+print(concat_string)
+
+#4
+sliced_string = original_string[::-1]
+print(sliced_string)
